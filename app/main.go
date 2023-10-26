@@ -1,11 +1,11 @@
 package main
 
 import (
-	"cron"
 	"fmt"
+	"pdf"
 )
 
 func main() {
 	fmt.Println("Hello")
-	cron.RunCron()
+	pdf.Create()
 }
